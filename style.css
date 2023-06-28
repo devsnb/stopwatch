@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Monomaniac One', sans-serif;
+	background-image: url('./assets/images/grid-pattern.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: hsla(0, 0%, 100%, 0.745);
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.container {
+	padding: 3rem;
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	background-color: hsla(258, 64%, 20%, 0.6);
+}
+
+.stopwatch {
+	padding: 1rem 0;
+	font-size: 3rem;
+	color: blueviolet;
+}
+
+.stopwatch > span {
+	display: inline-block;
+	width: 4rem;
+	height: 1rem;
+}
+
+button {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+	background-color: hsl(268, 95%, 30%);
+	color: #fff;
+	margin: 0 0.2rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 7px;
+	transition: background-color 0.1s;
+}
+
+button:hover {
+	background-color: hsl(271, 76%, 53%);
+	color: #f8f8f8;
+}
