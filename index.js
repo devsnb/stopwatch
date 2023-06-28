@@ -23,6 +23,7 @@ let Interval = null
  * keeps track of the elapsed time with the help of the previously defined variables and updates the DOM accordingly
  */
 const startTimer = () => {
+	// 1 second = 1000 milliseconds
 	// 1 current_tens = 1/10th of a second
 	// As the timer runs every 10 milliseconds or 1/10 th of a second we increment the current tens by 1
 	current_tens++
