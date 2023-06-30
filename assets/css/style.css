@@ -12,7 +12,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-family: 'Monomaniac One', sans-serif;
-	background-image: url('./assets/images/grid-pattern.png');
+	background-image: url('../images/grid-pattern.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,7 +38,7 @@ h1 {
 	color: blueviolet;
 }
 
-.stopwatch > span {
+.stopwatch>span {
 	display: inline-block;
 	width: 4rem;
 	height: 1rem;
