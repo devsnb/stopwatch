@@ -2,7 +2,7 @@ This is a web based stopwatch made with Vanilla JS and CSS without any third par
 
 The entry point to the project is `index.html`.
 
-### Repository Hosted On Github
+### Hosted On Github
 
 > https://github.com/devsnb/stopwatch
 
